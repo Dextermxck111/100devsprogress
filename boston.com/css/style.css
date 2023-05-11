@@ -1,0 +1,140 @@
+
+* {
+    box-sizing: border-box;
+    
+}
+
+header {
+    height: 76px;
+    border-bottom: 2px solid rgba(186, 186, 186);
+}
+
+.navigationBar {
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 2px solid rgba(186, 186, 186);
+    border-bottom: 2px solid rgba(186, 186, 186);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration:2px underline rgb(186, 37, 37);
+}
+
+li {
+    list-style: none;
+    font-family: Oswald;
+    font-size: 13px;
+}
+
+.boxes {
+    list-style: square;
+    color: rgb(186, 37, 37);
+}
+
+.menu {
+    font-family: Oswald;
+    font-size: 13px;
+}
+
+.hamburger {
+    width: 10px;
+    height: 10px;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+}
+
+.real::after {
+    content: "|";
+    color: rgba(186, 186, 186);
+}
+
+.logo {
+    padding: 0 400px;
+}
+
+.boston {
+    height: 400px;
+    width: 650px;
+    margin-left: 88px;
+}
+
+section h1 {
+    margin-left: 88px;
+    font-family: Oswald;
+}
+
+section h1:hover {
+    text-decoration:2px underline rgb(186, 37, 37);
+}
+
+.articles {
+    width:30%;
+    float: right;
+    margin-left: 20px;
+}
+
+article {
+    font-family: Oswald;
+}
+
+article h5 {
+    color:rgb(186, 37, 37);
+}
+
+article p:hover {
+    text-decoration:2px underline rgb(186, 37, 37);
+}
+.bostonMain {
+    width: 50%;
+}
+
+.container {
+    display: flex;
+}
+
+.pics section h3 {
+    font-family: Oswald;
+}
+
+.pics {
+    margin-left: 88px;
+    display: flex;
+    width: 630px;
+}
+
+.bottom {
+    margin-left: 88px;
+    display: flex;
+    width: 630px;
+    height: 280px;
+}
+
+.images {
+    width: 300px;
+}
+.bottom h3 {
+    font-family: Oswald;
+}
+
+.pics h3:hover {
+    text-decoration:2px underline rgb(186, 37, 37);
+}
+
+.bottom h3:hover {
+    text-decoration:2px underline rgb(186, 37, 37);
+}
+
+.two {
+    margin-left: 25px;
+}
+
