@@ -1,0 +1,67 @@
+h1 {
+    text-align: center;
+    font-family: 'Roboto Serif';
+}
+
+nav > ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding-top: 10px;
+    font-family: 'Roboto';
+}
+
+a {
+    text-decoration: none;
+    color: rgb(76,205,63);
+}
+
+nav > ul li {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+li + li {
+    margin-left: 3px;
+}
+
+body {
+    background-color: rgba(135, 206, 235);
+    color: white;
+}
+
+div {
+    border: 5px solid rgb(76,205,63);
+    height: 600px;
+    margin: 15px;
+}
+img {
+    width: 300px;
+    float: right;
+}
+
+section {
+    margin-left: 15px;
+}
+
+footer > ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+footer > ul li {
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(76,205,63);
+}
+
+.faucet {
+    color: grey;
+}
+
+h2 {
+    font-family: 'Roboto';
+    font-size: 20px;
+}
