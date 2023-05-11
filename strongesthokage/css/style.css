@@ -1,0 +1,57 @@
+img {
+    height: 200px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Roboto';
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.clan {
+    width: 100px;
+    height: 50px;
+   display: block; 
+   margin: 0 auto;
+}
+
+.uzumaki {
+    height: 40px;
+    width: 60px;
+    padding-top: 10px;
+    margin: 0 auto;
+}
+
+.hatake {
+    height: 40px;
+    width: 60px;
+    padding-top: 10px;
+}
+
+.namikaze {
+    height: 40px;
+    width: 60px;
+    padding-top: 10px;
+}
+
+h2:hover {
+   color: darkorange;
+}
+
+h2 {
+    font-family: 'Roboto';
+}
+
+.hidden {
+    display: none;
+}
+
+h1:hover {
+    color: darkorange;
+}
+
